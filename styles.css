@@ -1,0 +1,85 @@
+body
+{
+    background-color: rgb(234, 225, 148);
+}
+.navbar
+{
+color: rgb(253, 143, 0);
+font-size: large;
+font-family: roboto;
+margin-bottom:100px ;
+background-color: rgb(243, 203, 154);
+
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  .box {
+    border: 1px solid rgb(0, 0, 0);
+  font-size: large;
+    float: left;
+    width: 33%;
+    background-color: rgb(223, 191, 103);
+    margin-bottom: 100px;
+   
+  }
+  .box p{
+    padding-left: 50px;
+   
+  } 
+  .box h1 {
+    padding-left: 100px;
+    border: 1px solid black;
+    padding-right: 100px;
+    width: 100px;
+    margin: 100px;
+   
+  }
+  .navbar a
+{
+     padding-left: 50px;
+     padding-right: 50px;
+}
+.navbar input {
+    padding-left: 100px;
+}
+
+.img {
+    padding-left: 25%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer {
+  background-color: #eee;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#rights {
+  color: rgba(51, 51, 51, 0.548);
+}
+#search {
+  /*width: 100%;*/
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+td img{
+  width: 20px;
+  height: 20px;
+}
